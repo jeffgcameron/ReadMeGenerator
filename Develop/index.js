@@ -98,7 +98,7 @@ const writeToFile = (data) =>
 https://github.com/${data.github}
 
 ### Questions 
-Email me at [${data.name}] (mailto:${data.email})`;
+Email me at ${data.email}`;
 
 
 
