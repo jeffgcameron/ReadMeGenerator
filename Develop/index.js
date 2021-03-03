@@ -12,15 +12,13 @@ inquirer.prompt([
 },
 {
     type: 'input',
-    name: 'description',
-    message: 'Describe your project.',
+    name: 'name',
+    message: 'What is your name?',
 },
 {
-    type: 'list',
-    name: 'table',
-    message: 'Do you want a Table of Contents?',
-    choices: ["Yes", "No"]
-    
+    type: 'input',
+    name: 'description',
+    message: 'Describe your project.',
 },
 {
     type: 'input',
@@ -33,9 +31,10 @@ inquirer.prompt([
     message: 'Describe the projects usage.',
 },
 {
-    type: 'input',
+    type: 'list',
     name: 'license',
     message: 'Pick a License',
+    choices: ["Apache", "GNU", "MIT", "BSD 2", "BSD 3", "Boost", "Creative Commons", "Eclipse", "Mozilla", "The Unlicense", "None"]
 },
 {
     type: 'input',
@@ -47,6 +46,16 @@ inquirer.prompt([
     name: 'tests',
     message: 'List any tests you performed.',
 },
+{
+    type: 'input',
+    name: 'github',
+    message: 'What is you github Username?',
+},
+{
+    type: 'input',
+    name: 'email',
+    message: 'What is your Email',
+},
 
 ]);
 
@@ -56,12 +65,19 @@ questions();
 const writeToFile = (data) =>
 
 `# ${data.project}
+    By ${data.name}
 
 ## Description
     ${data.description}
     
 ## Table of Contents
-    ${data.table}
+    [Intallation] (#installation)
+    [Usage] (#usage) 
+    [License] (#license)
+    [Contributing] (#contributing)
+    [Tests] (#tests)
+    [Github Profile] (#github)
+    [Questions] (#questions)
 
 ## Installation
     ${data.installation}
@@ -76,7 +92,15 @@ const writeToFile = (data) =>
     ${data.contributing}
     
 ## Tests
-    ${data.tests}`;
+    ${data.tests}
+    
+### Github
+https://github.com/${data.github}
+
+### Questions 
+Email me at [${data.name}] (mailto:${data.email})`;
+
+
 
 // TODO: Create a function to initialize app
 function init() {
