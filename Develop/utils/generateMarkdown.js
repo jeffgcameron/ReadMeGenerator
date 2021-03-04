@@ -41,10 +41,11 @@ function generateMarkdown(data) {
     [Github Profile](#github)
     [Questions](#questions)
 
-  <a name="Installation"/>
+<a name="installation"/>
 ## Installation
     ${data.installation}
     
+<a name="usage"/>
 ## Usage
 ${renderLicenseLink(data.license)}
     ${data.usage}
@@ -60,10 +61,10 @@ ${renderLicenseLink(data.license)}
     ${data.tests}
     
 ### Github
-https://github.com/${data.github}
+  https://github.com/${data.github}
 
 ### Questions 
-Email me at ${data.email}
+  Email me at ${data.email}
 `;
 }
 
