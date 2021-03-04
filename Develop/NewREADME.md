@@ -1,14 +1,14 @@
-# Readme
-    By Jeff Cameron
+# readme
+    By jeff cameron
 
 ## Description
-    generate a readme
+    generates readme
     
 ## Table of Contents
-    [Intallation](#installation)
+    [Intallation](#Installation)
     [Usage](#usage) 
-    [License]( #license)
-    [Contributing](# contributing)
+    [License](#license)
+    [Contributing](#contributing)
     [Tests](#tests)
     [Github Profile](#github)
     [Questions](#questions)
