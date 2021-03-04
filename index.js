@@ -35,7 +35,7 @@ const questions = [
     type: 'list',
     name: 'license',
     message: 'Pick a License',
-    choices: ["Apache", "GNU", "MIT", "BSD 2", "BSD 3", "Boost", "Creative Commons", "Eclipse", "Mozilla", "The Unlicense", "none"]
+    choices: ["Apache", "GNU", "MIT", "BSD 2", "BSD 3", "Boost", "Creative Commons", "Eclipse", "Mozilla", "The Unlicense", ""]
 },
 {
     type: 'input',
@@ -70,7 +70,7 @@ return fs.writeFileSync(path.join(fileName), data)
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions).then((data) => {
-        writeToFile("NewReadMe.md", generateMarkdown(data))
+        writeToFile("README.md", generateMarkdown(data))
     });
 };
 
