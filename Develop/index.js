@@ -71,13 +71,13 @@ const writeToFile = (data) =>
     ${data.description}
     
 ## Table of Contents
-    [Intallation] (#installation)
-    [Usage] (#usage) 
-    [License] (#license)
-    [Contributing] (#contributing)
-    [Tests] (#tests)
-    [Github Profile] (#github)
-    [Questions] (#questions)
+    [Intallation](#installation)
+    [Usage](#usage) 
+    [License]( #license)
+    [Contributing](# contributing)
+    [Tests](#tests)
+    [Github Profile](#github)
+    [Questions](#questions)
 
 ## Installation
     ${data.installation}
