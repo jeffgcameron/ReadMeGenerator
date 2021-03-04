@@ -1,8 +1,11 @@
-# readme
-    By jeff cameron
+# undefined
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg);
+
+  # ReadMe Generator
+    By Jeff Cameron
 
 ## Description
-    generates readme
+    generate a professional readme using node.js.
     
 ## Table of Contents
     [Intallation](#Installation)
@@ -14,19 +17,25 @@
     [Questions](#questions)
 
 ## Installation
-    none
+    npm i in your terminal
     
 ## Usage
-    none
+
+* [License](#license)
+
+    Readme generator for professional, student, or personal applications
+  ## License
+    This application is covered under the MIT license
+    
     
 ## License
-    MIT
+    This application is covered under the MIT license
     
 ## Contributing
-    none
+    Esther, my TA, helped me with licensing issues
     
 ## Tests
-    none
+    node index in terminal
     
 ### Github
 https://github.com/jeffgcameron
