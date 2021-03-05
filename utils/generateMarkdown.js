@@ -24,6 +24,12 @@ function renderLicenseSection(license) {
   } return "";
 }
 
+// function renderInstallationLink(installation) {
+//   if (installation != "none") {
+//     `\n* [Installation](#insallation)\n`;
+//   }
+// }
+
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.project} ${renderLicenseBadge(data.license)}
@@ -33,9 +39,9 @@ function generateMarkdown(data) {
     ${data.description}
     
 ## Table of Contents
-    [Intallation](#installation)
+    [Installation](#installation)
     [Usage](#usage) 
-    [License](#license)
+    ${renderLicenseLink(data.license)}
     [Contributing](#contributing)
     [Tests](#tests)
     [Github Profile](#github)
@@ -45,13 +51,10 @@ function generateMarkdown(data) {
     ${data.installation}
     
 ## Usage
-${renderLicenseLink(data.license)}
     ${data.usage}
-  ${renderLicenseSection(data.license)}
-    
-## License
-    This application is covered under the ${data.license} license
-    
+
+${renderLicenseSection(data.license)} ${renderLicenseBadge(data.license)}
+
 ## Contributing
     ${data.contributing}
     
