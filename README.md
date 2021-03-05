@@ -1,36 +1,50 @@
-# fdsg ![GitHub license](https://img.shields.io/badge/license-Apache-blue.svg)
-    By sdf
+# README Generator ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+    By Jeff Cameron
 
 ## Description
-    gsdf
+    This application will generate a professional README.md through the use of node.js
     
 ## Table of Contents
-    * [Installation](#installation)
-    * [Usage](#usage)
-    * [License](#license)
-    * [Contribution](#contribution)
-    * [Test](#test)
-    * [Github](#github)
-    * [Questions](#questions)
+    
+* [Installation](#installation)
+
+    
+* [Usage](#usage)
+
+    
+* [License](#license)
+
+    
+* [Contribution](#contribution)
+
+    
+* [Test](#test)
+
+    
+* [Github](#github)
+
+    
+* [Questions](#questions)
+
 
 ## Installation
-    g
+    please use "npm i" in your terminal before using.
     
 ## Usage
-    sdfg
+    The user will input answers to a series of prompts, that will output the answer to their respective sections on the README.md
 
 ## License
-    This application is covered under the Apache license
-     ![GitHub license](https://img.shields.io/badge/license-Apache-blue.svg)
+    This application is covered under the MIT license
+    
 
 ## Contributing
-    sdfg
+    Esther, my TA, help with some troubleshooting regarding the lincese badge and link
     
 ## Tests
-    sdfg
+    Tested the application through my terminal and pushed to Github to see the result.
     
 ### Github
-  Visit my Github Profile at https://github.com/sdfg
+    Visit my Github Profile at https://github.com/jeffgcameron
 
 ### Questions 
-  Email me at sdfg
+    Email me at jeffgcameron@gmail.com

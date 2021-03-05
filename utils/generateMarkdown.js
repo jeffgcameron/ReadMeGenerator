@@ -10,43 +10,43 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (license != "") {
-    return `* [License](#license)`;
+    return `\n* [License](#license)\n`;
   } return "";
 }
 
 function installation(installation) {
   if (installation != "") {
-    return `* [Installation](#installation)`;
+    return `\n* [Installation](#installation)\n`;
   }
 }
 
 function usage(usage) {
   if (usage != "") {
-    return `* [Usage](#usage)`;
+    return `\n* [Usage](#usage)\n`;
   }
 }
 
 function cont(contribution) {
   if (contribution != "") {
-    return `* [Contribution](#contribution)`;
+    return `\n* [Contribution](#contribution)\n`;
   }
 }
 
 function test(test) {
   if (test != "") {
-    return `* [Test](#test)`;
+    return `\n* [Test](#test)\n`;
   }
 }
 
 function git(github) {
   if (github != "") {
-    return `* [Github](#github)`;
+    return `\n* [Github](#github)\n`;
   }
 }
 
 function quest(questions) {
   if (questions != "") {
-    return `* [Questions](#questions)`;
+    return `\n* [Questions](#questions)\n`;
   }
 }
 
@@ -84,7 +84,7 @@ function generateMarkdown(data) {
 ## Usage
     ${data.usage}
 
-${renderLicenseSection(data.license)} ${renderLicenseBadge(data.license)}
+${renderLicenseSection(data.license)}
 
 ## Contributing
     ${data.contributing}
@@ -93,10 +93,10 @@ ${renderLicenseSection(data.license)} ${renderLicenseBadge(data.license)}
     ${data.tests}
     
 ### Github
-  Visit my Github Profile at https://github.com/${data.github}
+    Visit my Github Profile at https://github.com/${data.github}
 
 ### Questions 
-  Email me at ${data.email}
+    Email me at ${data.email}
 `;
 }
 
