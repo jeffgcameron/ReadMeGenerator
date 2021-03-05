@@ -79,7 +79,7 @@ ${installation(data.installation)}
 ${usage(data.usage)}
 ${renderLicenseLink(data.license)}
 ${cont(data.contribution)}
-${test(data.test)}
+${test(data.tests)}
 ${git(data.github)}
 ${quest(data.questions)}
 ${link(data.link)}
