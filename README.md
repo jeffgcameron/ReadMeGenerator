@@ -2,7 +2,7 @@
     By Jeff Cameron
 
 ## Description
-    This application will generate a professional README.md through the use of node.js
+    This application will produce a README.md through the terminal using node.js
     
 ## Table of Contents
     
@@ -28,23 +28,23 @@
 
 
 ## Installation
-    please use "npm i" in your terminal before using.
+    please use "npm i" in your terminal before usong this application.
     
 ## Usage
-    The user will input answers to a series of prompts, that will output the answer to their respective sections on the README.md
+    The user will be prompted a series of questions. Their input will be displayed on a readme in its respecitve sections.
 
 ## License
     This application is covered under the MIT license
     
 
 ## Contributing
-    Esther, my TA, help with some troubleshooting regarding the lincese badge and link
+    Esther, my TA, helped with some troubleshooting regarding the licese badge and link.
     
 ## Tests
-    Tested the application through my terminal and pushed to Github to see the result.
+    I tested this application through the terminal and push up to Github to see the result.
     
 ### Github
-    Visit my Github Profile at https://github.com/jeffgcameron
+  Visit my Github Profile at https://github.com/jeffgcameron
 
 ### Questions 
-    Email me at jeffgcameron@gmail.com
+  Email me at jeffgcameron@gmail.com

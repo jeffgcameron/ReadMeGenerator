@@ -93,10 +93,10 @@ ${renderLicenseSection(data.license)}
     ${data.tests}
     
 ### Github
-    Visit my Github Profile at https://github.com/${data.github}
+  Visit my Github Profile at https://github.com/${data.github}
 
 ### Questions 
-    Email me at ${data.email}
+  Email me at ${data.email}
 `;
 }
 
