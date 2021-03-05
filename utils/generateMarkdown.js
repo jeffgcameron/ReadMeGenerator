@@ -14,9 +14,39 @@ function renderLicenseLink(license) {
   } return "";
 }
 
+function installation(installation) {
+  if (installation != "") {
+    return `\n* [Installation](#installation)\n`;
+  }
+}
+
 function usage(usage) {
   if (usage != "") {
     return `\n* [Usage](#usage)\n`;
+  }
+}
+
+function cont(contribution) {
+  if (contribution != "") {
+    return `\n* [Contribution](#contribution)\n`;
+  }
+}
+
+function test(test) {
+  if (test != "") {
+    return `\n* [Test](#test)\n`;
+  }
+}
+
+function git(github) {
+  if (github != "") {
+    return `\n* [Github](#github)\n`;
+  }
+}
+
+function quest(questions) {
+  if (questions != "") {
+    return `\n* [Questions](#questions)\n`;
   }
 }
 
@@ -30,11 +60,6 @@ function renderLicenseSection(license) {
   } return "";
 }
 
-// function renderInstallationLink(installation) {
-//   if (installation != "none") {
-//     `\n* [Installation](#insallation)\n`;
-//   }
-// }
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
@@ -45,13 +70,13 @@ function generateMarkdown(data) {
     ${data.description}
     
 ## Table of Contents
-  [Installation](#installation)
+    ${installation(data.installation)}
     ${usage(data.usage)}
     ${renderLicenseLink(data.license)}
-    [Contributing](#contributing)
-    [Tests](#tests)
-    [Github Profile](#github)
-    [Questions](#questions)
+    ${cont(data.contribution)}
+    ${test(data.test)}
+    ${git(data.github)}
+    ${quest(data.questions)}
 
 ## Installation
     ${data.installation}
