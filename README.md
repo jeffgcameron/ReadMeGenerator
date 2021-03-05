@@ -2,7 +2,7 @@
     By Jeff Cameron
 
 ## Description
-THis application will produce a professional REAME.md file through the terminal.
+This application will produce a professional REAME.md file through the terminal.
 
 ## Table of Contents
 
@@ -15,7 +15,7 @@ THis application will produce a professional REAME.md file through the terminal.
 * [License](#license)
 
 
-* [Contribution](#contribution)
+* [Contributions](#contributions)
 
 
 * [Test](#test)
@@ -27,17 +27,18 @@ THis application will produce a professional REAME.md file through the terminal.
 * [Questions](#questions)
 
 
+* [Application Link](#application-link)
 
 ## Installation
 if you do not have node_modules in you repository, please use "npm i" in your terminal before using this application.
 
 ## Usage
-This application will prompt the user with a series of questions. The user input will then be displayed on the README.md file in its respective locations.
+This application will prompt the user with a series of questions. The user input will then be displayed on the README.md file in its respective location.
 
 ## License
-This application is covered under the MIT license
+This application is covered under the MIT license.
 
-## Contributing
+## Contributions
 Esther, my TA, helped with issues involving the license badge and license link. Please email me (located below) if you would like to contribute.
 
 ## Tests
@@ -50,4 +51,4 @@ Visit my Github Profile at https://github.com/jeffgcameron
 Email me at jeffgcameron@gmail.com
 
 ### Application Link
-https://vimeo.com/manage/videos/519755897
+https://vimeo.com/519766263

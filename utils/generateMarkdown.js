@@ -61,7 +61,7 @@ function link(link) {
 function renderLicenseSection(license) {
   if (license != "none") {
     return `## License
-This application is covered under the ${license} license`;
+This application is covered under the ${license} license.`;
   } return "";
 }
 
@@ -82,7 +82,7 @@ ${cont(data.contribution)}
 ${test(data.test)}
 ${git(data.github)}
 ${quest(data.questions)}
-
+${link(data.link)}
 
 ## Installation
 ${data.installation}
