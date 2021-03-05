@@ -18,7 +18,7 @@ This application will produce a professional REAME.md file through the terminal.
 * [Contributions](#contributions)
 
 
-* [Test](#test)
+* [Tests](#tests)
 
 
 * [Github](#github)

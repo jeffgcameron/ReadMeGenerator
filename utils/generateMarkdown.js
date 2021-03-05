@@ -32,9 +32,9 @@ function cont(contribution) {
   }
 }
 
-function test(test) {
-  if (test != "") {
-    return `\n* [Test](#test)\n`;
+function test(tests) {
+  if (tests != "") {
+    return `\n* [Tests](#test)\n`;
   }
 }
 
