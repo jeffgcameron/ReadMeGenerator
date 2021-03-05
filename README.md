@@ -2,8 +2,8 @@
     By Jeff Cameron
 
 ## Description
-This application will create a README.md file through the use of terminal, node.js and javascript.
-    
+THis application will produce a professional REAME.md file through the terminal.
+
 ## Table of Contents
 
 * [Installation](#installation)
@@ -27,27 +27,27 @@ This application will create a README.md file through the use of terminal, node.
 * [Questions](#questions)
 
 
+
 ## Installation
-Please use "npm i" in your terminal before using this application.
-    
+if you do not have node_modules in you repository, please use "npm i" in your terminal before using this application.
+
 ## Usage
-This application will prompt the user with a series of questions. The user input will then be displayed on the README.md file in its repective sections.
+This application will prompt the user with a series of questions. The user input will then be displayed on the README.md file in its respective locations.
 
 ## License
-    This application is covered under the MIT license
-    
+This application is covered under the MIT license
 
 ## Contributing
-Esther, my TA, helped me with problems involving the license badge and license link.
-    
+Esther, my TA, helped with issues involving the license badge and license link. Please email me (located below) if you would like to contribute.
+
 ## Tests
-I tested this application through the terminal and pushed up to Github to see the result.
-    
+I tested this application through the terminal and pushed to Github to see the result.
+
 ### Github
 Visit my Github Profile at https://github.com/jeffgcameron
 
 ### Questions 
 Email me at jeffgcameron@gmail.com
 
-### Vistin the Link Below for an Application walkthrough
-https://vimeo.com/519755897
+### Application Link
+https://vimeo.com/manage/videos/519755897

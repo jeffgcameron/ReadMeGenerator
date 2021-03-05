@@ -57,6 +57,11 @@ const questions = [
     name: 'email',
     message: 'What is your Email',
 },
+{
+    type: 'input',
+    name: 'link',
+    message: 'Please provide a link to your site/application',
+},
 
 ];
 

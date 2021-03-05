@@ -50,13 +50,18 @@ function quest(questions) {
   }
 }
 
+function link(link) {
+  if (link != "") {
+    return `\n* [Application Link](#application-link)\n`;
+  }
+}
+
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (license != "none") {
     return `## License
-    This application is covered under the ${license} license
-    `;
+This application is covered under the ${license} license`;
   } return "";
 }
 
@@ -68,7 +73,7 @@ function generateMarkdown(data) {
 
 ## Description
 ${data.description}
-    
+
 ## Table of Contents
 ${installation(data.installation)}
 ${usage(data.usage)}
@@ -78,9 +83,10 @@ ${test(data.test)}
 ${git(data.github)}
 ${quest(data.questions)}
 
+
 ## Installation
 ${data.installation}
-    
+
 ## Usage
 ${data.usage}
 
@@ -88,18 +94,18 @@ ${renderLicenseSection(data.license)}
 
 ## Contributing
 ${data.contributing}
-    
+
 ## Tests
 ${data.tests}
-    
+
 ### Github
 Visit my Github Profile at https://github.com/${data.github}
 
 ### Questions 
 Email me at ${data.email}
 
-### Vistin the Link Below for an Application walkthrough
-https://vimeo.com/519755897
+### Application Link
+${data.link}
 `;
 }
 
