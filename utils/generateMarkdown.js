@@ -10,43 +10,43 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (license != "") {
-    return `\n* [License](#license)\n`;
+    return `* [License](#license)`;
   } return "";
 }
 
 function installation(installation) {
   if (installation != "") {
-    return `\n* [Installation](#installation)\n`;
+    return `* [Installation](#installation)`;
   }
 }
 
 function usage(usage) {
   if (usage != "") {
-    return `\n* [Usage](#usage)\n`;
+    return `* [Usage](#usage)`;
   }
 }
 
 function cont(contribution) {
   if (contribution != "") {
-    return `\n* [Contribution](#contribution)\n`;
+    return `* [Contribution](#contribution)`;
   }
 }
 
 function test(test) {
   if (test != "") {
-    return `\n* [Test](#test)\n`;
+    return `* [Test](#test)`;
   }
 }
 
 function git(github) {
   if (github != "") {
-    return `\n* [Github](#github)\n`;
+    return `* [Github](#github)`;
   }
 }
 
 function quest(questions) {
   if (questions != "") {
-    return `\n* [Questions](#questions)\n`;
+    return `* [Questions](#questions)`;
   }
 }
 
